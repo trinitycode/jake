@@ -268,15 +268,15 @@ if (new Date() - location.search.substr(1) > 1000) location.href = location.path
 
 <h2>Basic subtraction</h2>
 <input value="1" id="subtractBox1">
-minus
+subtract
 <input value="2" id="subtractBox2">
 <input type="button" value="equals" id="subtractButton">
 <span id="subractResult"></span>
 <script>
 document.getElementById('subtractButton').onclick = function(){
   // Get numbers from the two boxes.
-  add1 = Number(document.getElementById('subtractBox1').value)
-  add2 = Number(document.getElementById('subtractBox2').value)
+  sub1 = Number(document.getElementById('subtractBox1').value)
+ sub2 = Number(document.getElementById('subtractBox2').value)
   // Add the two numbers together and store them as result.
   result = subtract1 + subtract2
   // Show the result.
