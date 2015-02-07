@@ -150,13 +150,6 @@ document.getElementById('nameButton').onclick = function(){
 </script>
 
 
-<h2>Favorite color (change this to your favorite color)</h2>
-<span id="colorResponse">Color</span>
-<script>
-var color = 'blue'
-document.getElementById('colorResponse').textContent = 'Here is some ' + color + ' for you'
-document.getElementById('colorResponse').style.color = '' + color
-</script>
 
 <h2>What's your favorite color? (Can you make a box that asks what your favorite color is?)</h2>
 <input id="colorBox">
@@ -165,7 +158,7 @@ document.getElementById('colorResponse').style.color = '' + color
 <script>
 document.getElementById('colorButton').onclick = function(){
   name = document.getElementById('colorBox').value
-  document.getElementById('colorRe').textContent = 'I like ' + color2 + ' too '
+  document.getElementById('colorRe').textContent = 'I like ' + color + ' too '
 }
 </script>
 
