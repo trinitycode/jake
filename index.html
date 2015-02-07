@@ -154,11 +154,11 @@ document.getElementById('nameButton').onclick = function(){
 <h2>What's your favorite color? (Can you make a box that asks what your favorite color is?)</h2>
 <input id="colorBox">
 <input type="button" value="enter" id="colorButton">
-<span id="colorRe"></span>
+<span id="colorResponse"></span>
 <script>
 document.getElementById('colorButton').onclick = function(){
   name = document.getElementById('colorBox').value
-  document.getElementById('colorRe').textContent = 'I like ' + color + ' too '
+  document.getElementById('colorResponse').textContent = 'I like ' + color + ' too '
 }
 </script>
 
